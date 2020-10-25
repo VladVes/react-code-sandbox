@@ -1,0 +1,28 @@
+React
+index and components (jsx):
+  import React from 'react'; -> React.createElement, React.Component, React.PureComponent ...
+  import ReactDOM from 'react-dom'; -> ReactDom.render
+
+Redux
+store:
+  import { createStore, applyMiddleware, compose } from "redux";
+reducers:
+  import { combineReducers } from "redux";
+
+React-Redux
+root component:
+  import { Provider } from "react-redux";
+connectors:
+  import { connect } from "react-redux";
+
+Redux-actions
+actions:
+  import { createAction } from "redux-actions";
+reducers:
+  import { handleActions } from "redux-actions";
+
+Reselect
+selectore
+  import { createSelecto } from 'reselect'
+
+  
